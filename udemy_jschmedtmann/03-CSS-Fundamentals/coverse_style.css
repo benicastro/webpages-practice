@@ -1,6 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.4;
+}
+
+.container {
+  width: 825px;
+  margin: 50px auto;
   border: 4px solid black;
 }
 
@@ -15,6 +25,13 @@ h2 {
   font-size: 22px;
   text-align: center;
   background-color: #f7f7f7;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+h3 {
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
 
 a:link {
@@ -29,6 +46,8 @@ a:visited {
 
 li {
   list-style: square;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 button {
@@ -37,11 +56,15 @@ button {
   font-size: 20px;
   color: #fff;
   cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
 }
 
 button:hover {
   color: black;
   background-color: white;
+  border-top: 4px solid black;
 }
 
 .price {
@@ -52,4 +75,5 @@ button:hover {
   font-size: 12px;
   font-weight: bold;
   color: #777;
+  margin-bottom: 20px;
 }
